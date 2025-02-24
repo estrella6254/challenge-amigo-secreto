@@ -13,3 +13,14 @@ function agregarAmigo() {
     amigos.push(nombreInput);
     document.getElementById("amigo").value = "";
 }
+
+//funcion actualizar y mostrar amigos en pantalla 
+function actualizarLista() {   
+    const listaAmigos = document.getElementById("listaAmigos");
+    listaAmigos.innerHTML = "";
+    amigos.forEach((amigo) => {
+        const li = document.createElement("li");
+        li.textContent = amigo;
+        listaAmigos.appendChild(li);
+    })
+}
