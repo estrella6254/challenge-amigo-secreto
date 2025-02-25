@@ -3,9 +3,9 @@
 //crear la lista para amigos
 let amigos = [];
 
-//crear la funcion ppara agregar amgos 
+//crear la funcion ppara agregar amigos 
 function agregarAmigo() {
-    const nombreInput = document.getElementById("amigo").value.trim();
+    const nombreInput = document.getElementById("amigo").value.trim(); 
     if (nombreInput === "") {
         alert("Por favor, ingresa un nombre válido.");
         return;
