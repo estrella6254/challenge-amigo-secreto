@@ -132,6 +132,21 @@ ul {
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
+
+}
+#listaAmigos {
+    width: 100%;
+    max-width: 600px; /* Alineado con .input-wrapper */
+    min-height: 20px; /* Asegura espacio visible */
+    padding: 0;
+    margin: 20px 0;
+    color: var(--color-text);
+}
+
+#listaAmigos li {
+    list-style-type: disc; /* Viñetas para dar mas claridad a la lista */
+    margin-left: 20px; /* Desplaza las viñetas */
+    padding: 5px 0; /* Espaciado entre ítems */
 }
 
 .result-list {
